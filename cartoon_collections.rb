@@ -28,5 +28,9 @@ def find_the_cheese(arr)
       nil 
     end 
   }
-  if test.compact
+  if test.compact != []
+    test[0]
+  else
+    nil 
+  end 
 end
