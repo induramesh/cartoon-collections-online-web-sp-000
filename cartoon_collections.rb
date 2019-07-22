@@ -13,11 +13,7 @@ end
 
 
 def long_planeteer_calls(arr)
-  if arr.find {|c| c.length >= 4} == nil 
-    false 
-  else 
-    true 
-  end 
+  true if arr.find {|c| c.length > 4} != nil 
 end
 
 def find_the_cheese# code an argument here
