@@ -21,10 +21,12 @@ def long_planeteer_calls(arr)
 end
 
 def find_the_cheese(arr)
-  cheese_types = ["cheddar", "gouda", "camembert"]
- cheese_types.map {|cheese| arr.include?(cheese)
+ cheese_types = ["cheddar", "gouda", "camembert"]
+ test = cheese_types.map {|cheese|  arr.include?(cheese)
+      cheese
     else 
       nil 
     end 
   }
+  if test.compact
 end
