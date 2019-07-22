@@ -1,12 +1,12 @@
 def roll_call_dwarves(arr)
   arr.each_with_index do |item, idx|
-    puts "#{idx + 1}. item"
+    puts "#{idx + 1}. #{item}"
   end 
 end
 
 def summon_captain_planet(arr)
   arr.map do |item|
-    item = item.capitalize + "!"
+    item = item.capitalize! + "!"
   end 
     arr 
 end
