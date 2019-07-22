@@ -13,7 +13,7 @@ end
 
 
 def long_planeteer_calls(arr)
-  if arr.find {|c| c.length > 4} != nil 
+  if arr.select {|c| c.length > 4} != []
     false 
   else 
     true 
