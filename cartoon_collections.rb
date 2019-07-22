@@ -13,7 +13,7 @@ end
 
 
 def long_planeteer_calls(arr)
-  return true if arr
+  if arr.find {|c| c.length == 3}
 end
 
 def find_the_cheese# code an argument here
